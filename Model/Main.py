@@ -1,4 +1,0 @@
-import getData
-
-
-getData.correlation()

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46b87bfc-96e1-40ca-aa0e-65ab5e3cc2d6" name="Default Changelist" comment="" />
+    <list default="true" id="46b87bfc-96e1-40ca-aa0e-65ab5e3cc2d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/Models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/KNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Linear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/RF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/SVM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getData.py" beforeDir="false" afterPath="$PROJECT_DIR$/getData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.csv" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Yc8JcLg1v0SHyplWB6p0jj14gm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,8 +55,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -48,8 +68,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Model" />
+      <recent name="$PROJECT_DIR$/Files" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Model" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Main">
@@ -57,6 +78,9 @@
       <module name="Weather" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -76,6 +100,9 @@
       <module name="Weather" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -120,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Model/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,6 +160,9 @@
       <module name="Weather" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -173,9 +203,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Linear" />
         <item itemvalue="Python.DNN" />
         <item itemvalue="Python.SVM" />
-        <item itemvalue="Python.Linear" />
         <item itemvalue="Python.KNN" />
       </list>
     </recent_temporary>
@@ -194,7 +224,9 @@
       <workItem from="1583755015148" duration="3075000" />
       <workItem from="1583759923868" duration="11483000" />
       <workItem from="1584160659027" duration="1505000" />
-      <workItem from="1584199846024" duration="14772000" />
+      <workItem from="1584199846024" duration="17522000" />
+      <workItem from="1584485259632" duration="502000" />
+      <workItem from="1585485498087" duration="12824000" />
     </task>
     <servers />
   </component>
@@ -202,63 +234,67 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1585495260322">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585495260322" />
     <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584199659262">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1584199659262" />
-    <state x="0" y="160" key="#xdebugger.XInspectDialog" timestamp="1584121626937">
+    <state x="0" y="160" key="#xdebugger.XInspectDialog" timestamp="1585502635676">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="160" key="#xdebugger.XInspectDialog/0.0.1280.800@0.0.1280.800" timestamp="1584121626937" />
+    <state x="0" y="160" key="#xdebugger.XInspectDialog/0.0.1280.800@0.0.1280.800" timestamp="1585502635676" />
     <state width="775" height="466" key="DebuggerActiveHint" timestamp="1584121673497">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="775" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1584121673497" />
     <state width="775" height="466" key="DebuggerActiveHint/0.23.1280.732@0.23.1280.732" timestamp="1584121164545" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1584125348428">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584122012111" />
-    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1584125348428" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1584125348427">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1584122012108" />
-    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1584125348427" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1584125348426">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1584122012108" />
-    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1584125348426" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1584125348427">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1584122012110" />
-    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1584125348427" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1584125348430">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1584122012113" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.732@0.23.1280.732" timestamp="1584125348430" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1584125348429">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1584122012112" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.732@0.23.1280.732" timestamp="1584125348429" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1584125348428">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1584122012111" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.732@0.23.1280.732" timestamp="1584125348428" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1584125348429">
-      <screen x="0" y="23" width="1280" height="732" />
-    </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1584122012112" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.732@0.23.1280.732" timestamp="1584125348429" />
-    <state x="141" y="23" key="SettingsEditor" timestamp="1584199807014">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1585496769929">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1584199807014" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585496769929" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.23.1280.732@0.23.1280.732" timestamp="1584125348428" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1585496769928">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585496769928" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.23.1280.732@0.23.1280.732" timestamp="1584125348427" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1585496769927">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585496769927" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.23.1280.732@0.23.1280.732" timestamp="1584125348426" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1585496769929">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585496769929" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.23.1280.732@0.23.1280.732" timestamp="1584125348427" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1585496769931">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585496769931" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.23.1280.732@0.23.1280.732" timestamp="1584125348430" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1585496769930">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585496769930" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.23.1280.732@0.23.1280.732" timestamp="1584125348429" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1585496769930">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585496769930" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.23.1280.732@0.23.1280.732" timestamp="1584125348428" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1585496769931">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585496769931" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.23.1280.732@0.23.1280.732" timestamp="1584125348429" />
+    <state x="141" y="23" key="SettingsEditor" timestamp="1585492633028">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1585492633028" />
     <state x="141" y="28" key="SettingsEditor/0.23.1280.732@0.23.1280.732" timestamp="1583245127198" />
     <state x="317" y="221" key="com.intellij.ide.util.TipDialog" timestamp="1583230475914">
       <screen x="0" y="23" width="1280" height="732" />
@@ -276,6 +312,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="298" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1584420006799" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585491120760">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1585491120760" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,15 +325,11 @@
           <line>196</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/miniconda3/envs/Weather/lib/python3.7/site-packages/sklearn/utils/validation.py</url>
-          <line>209</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Weather$Main.coverage" NAME="Main Coverage Results" MODIFIED="1585496590699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model" />
     <SUITE FILE_PATH="coverage/Weather$getData.coverage" NAME="getData Coverage Results" MODIFIED="1584121678861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
