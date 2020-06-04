@@ -21,6 +21,7 @@ def slip_data(weather_data, col):
     weather_data = weather_data.drop(col, axis=1)
     if col == "Rain_Tomorrow_Yes":
         weather_data = weather_data.drop("Rainfall_Tomorrow", axis=1)
+        print('skip')
     elif col == "Rainfall_Tomorrow":
         weather_data = weather_data.drop("Rain_Tomorrow_Yes", axis=1)
     independence = np.array(weather_data)
@@ -55,7 +56,7 @@ def export_numpy_csv(weather_data):
 
 def clear_data(data):
     new_data = one_hot_encode(data.drop('Date', axis=1))
-    # new_data = new_data.drop('Rain_today_No', axis=1)
+    new_data = new_data.drop('Rain_today_No', axis=1)
     new_data = new_data.drop('Rain_Tomorrow_No', axis=1)
     return new_data
 

@@ -9,6 +9,8 @@ from keras.callbacks import ModelCheckpoint
 import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 
 class Learning:
@@ -19,8 +21,8 @@ class Learning:
 
     def train_model(self):
         # linear_model = self.linear()
-        logistic_model = self.linear()
-        # logistic_model = self.logistic()
+        # logistic_model = self.linear()
+        logistic_model = self.logistic()
         knn_model = self.knn()
         svm_model = self.svm()
         rf_model = self.random_forest(estimators=1000, state=42)
@@ -29,13 +31,14 @@ class Learning:
         knn_prediction = knn_model.predict(self.test)
         svm_prediction = svm_model.predict(self.test)
         rf_prediction = rf_model.predict(self.test)
+
+        # new = pd.DataFrame(self.test)
+        # new_test = new[[5, 7, 10, 12, 15, 16]].to_numpy()
+        # rf_prediction = rf_model.predict()
         return logistic_prediction, knn_prediction, svm_prediction, rf_prediction
 
     def train_single(self):
         return self.extreme_boosting().predict(self.test)
-
-    def train_lstm(self):
-        return self.long_short_term_memory().predict(self.test)
 
     def train_nn(self):
         return self.deep_neural_network().predict(self.test)
@@ -56,13 +59,15 @@ class Learning:
         return model
 
     def svm(self):
-        model = SVR(kernel='rbf')
+        model = SVR(kernel='linear')
         model.fit(self.train, self.train_lb)
         return model
 
     def random_forest(self, estimators, state):
         model = RandomForestRegressor(n_estimators=estimators, random_state=state)
         model.fit(self.train, self.train_lb)
+        feat_importances = pd.Series(model.feature_importances_)
+        feat_importances.nlargest(4).plot(kind='barh')
         return model
 
     def extreme_boosting(self):
@@ -89,7 +94,11 @@ class Learning:
         cp_name = 'Weights-{epoch:03d}--{val_loss:.5f}.hdf5'
         check_point = ModelCheckpoint(cp_name, monitor='var_loss', verbose=1, save_best_only=True, mode='auto')
         callback = [check_point]
-        model.fit(self.train, self.train_lb, epochs=500, batch_size=32, validation_split=0.2, callbacks=callback)
         model.compile(loss='mean_absolute_error', optimizer='adam', metrics=['mean_absolute_error'])
+        history = model.fit(self.train, self.train_lb, epochs=50, batch_size=32, validation_split=0.2, callbacks=callback)
+        plt.plot(history.history['loss'], label='train')
+        plt.plot(history.history['val_loss'], label='test')
+        plt.legend()
+        plt.show()
         return model
 
